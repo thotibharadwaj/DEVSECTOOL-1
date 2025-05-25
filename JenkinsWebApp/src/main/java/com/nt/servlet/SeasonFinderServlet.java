@@ -40,7 +40,7 @@ public class SeasonFinderServlet extends HttpServlet{
 		}
 		
 		//write result / output to the browser 
-		pw.println("<h1 style='color:green ; text-align:center'>" + seasonName +"</h1>");
+		pw.println("<h1 style='color:cyan ; text-align:center'>" + seasonName +"</h1>");
 		
 		//add home hyperlink  	
 		pw.println("<h1 style='text-align:center' ><a href='index.jsp' > Home <img src='images/home.jpeg' width='50' height='50'></a></h1>");
